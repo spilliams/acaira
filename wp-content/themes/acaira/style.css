@@ -59,8 +59,8 @@ a img {
 -------------------------------------------------------------- */
 
 /*
-LAYOUT: Two columns
-DESCRIPTION: Two-column fixed layout with one sidebar right of content
+Two columns
+Two-column fixed layout with one sidebar right of content
 */
 
 #container {
@@ -86,8 +86,8 @@ DESCRIPTION: Two-column fixed layout with one sidebar right of content
 }
 
 /*
-LAYOUT: One column, no sidebar
-DESCRIPTION: One centered column with no sidebar
+One column, no sidebar
+One centered column with no sidebar
 */
 
 .one-column #content {
@@ -96,8 +96,8 @@ DESCRIPTION: One centered column with no sidebar
 }
 
 /*
-LAYOUT: Full width, no sidebar
-DESCRIPTION: Full width content with no sidebar; used for attachment pages
+Full width, no sidebar
+Full width content with no sidebar; used for attachment pages
 */
 
 .single-attachment #content {
