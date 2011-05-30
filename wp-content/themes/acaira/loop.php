@@ -96,7 +96,6 @@
 				<a href="<?php echo get_term_link( _x( 'gallery', 'gallery category slug', 'acaira' ), 'category' ); ?>" title="<?php esc_attr_e( 'View posts in the Gallery category', 'acaira' ); ?>"><?php _e( 'More Galleries', 'acaira' ); ?></a>
 				<span class="meta-sep">|</span>
 			<?php endif; ?>
-				<span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'acaira' ), __( '1 Comment', 'acaira' ), __( '% Comments', 'acaira' ) ); ?></span>
 				<?php edit_post_link( __( 'Edit', 'acaira' ), '<span class="meta-sep">|</span> <span class="edit-link">', '</span>' ); ?>
 			</div><!-- .entry-utility -->
 		</div><!-- #post-## -->
@@ -119,7 +118,6 @@
 			<div class="entry-utility">
 				<?php acaira_posted_on(); ?>
 				<span class="meta-sep">|</span>
-				<span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'acaira' ), __( '1 Comment', 'acaira' ), __( '% Comments', 'acaira' ) ); ?></span>
 				<?php edit_post_link( __( 'Edit', 'acaira' ), '<span class="meta-sep">|</span> <span class="edit-link">', '</span>' ); ?>
 			</div><!-- .entry-utility -->
 		</div><!-- #post-## -->
@@ -161,12 +159,9 @@
 					</span>
 					<span class="meta-sep">|</span>
 				<?php endif; ?>
-				<span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'acaira' ), __( '1 Comment', 'acaira' ), __( '% Comments', 'acaira' ) ); ?></span>
 				<?php edit_post_link( __( 'Edit', 'acaira' ), '<span class="meta-sep">|</span> <span class="edit-link">', '</span>' ); ?>
 			</div><!-- .entry-utility -->
 		</div><!-- #post-## -->
-
-		<?php comments_template( '', true ); ?>
 
 	<?php endif; // This was the if statement that broke the loop into three parts based on categories. ?>
 
