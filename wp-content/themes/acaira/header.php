@@ -53,12 +53,12 @@
     </a>
   </div><!-- #header -->
   <div id='nav'>
-    <a href='/cat/editorial'>Editorial</a><br>
-    <a href='/cat/sports'>Sports</a><br>
-    <a href='/cat/portraits'>Portraits</a><br>
-    <a href='/cat/multimedia'>Multimedia</a><br>
-    <a href='/cat/events'>Events</a><br>
-    <a href='/cat/recent'>Recent Work</a><br>
-    <a href='/about'>About</a><br>
+    <a href='/cat/editorial'> <img src='/wp-content/themes/acaira/images/Editorial.png' /></a><br>
+    <a href='/cat/sports'>    <img src='/wp-content/themes/acaira/images/Sports.png' /></a><br>
+    <a href='/cat/portraits'> <img src='/wp-content/themes/acaira/images/Portraits.png' /></a><br>
+    <a href='/cat/multimedia'><img src='/wp-content/themes/acaira/images/Multimedia.png' /></a><br>
+    <a href='/cat/events'>    <img src='/wp-content/themes/acaira/images/Events.png' /></a><br>
+    <a href='/cat/recent'>    <img src='/wp-content/themes/acaira/images/Recent.png' /></a><br>
+    <a href='/about'>         <img src='/wp-content/themes/acaira/images/About.png' /></a><br>
   </div>
   <div id='main'>
