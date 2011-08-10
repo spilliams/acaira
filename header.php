@@ -53,12 +53,12 @@
     </a>
   </div><!-- #header -->
   <div id='nav'>
-    <a href='/cat/editorial'> <img src='/wp-content/themes/acaira/images/Editorial.png' /></a><br>
-    <a href='/cat/sports'>    <img src='/wp-content/themes/acaira/images/Sports.png' /></a><br>
-    <a href='/cat/portraits'> <img src='/wp-content/themes/acaira/images/Portraits.png' /></a><br>
-    <a href='/cat/multimedia'><img src='/wp-content/themes/acaira/images/Multimedia.png' /></a><br>
-    <a href='/cat/events'>    <img src='/wp-content/themes/acaira/images/Events.png' /></a><br>
-    <a href='/cat/recent'>    <img src='/wp-content/themes/acaira/images/Recent.png' /></a><br>
-    <a href='/about'>         <img src='/wp-content/themes/acaira/images/About.png' /></a><br>
+    <div class='navlink'><a href='/cat/editorial'> <img src='/wp-content/themes/acaira/images/EditorialHi.png'  class='hi' /><img src='/wp-content/themes/acaira/images/Editorial.png'  class='lo' /></a></div>
+    <div class='navlink'><a href='/cat/sports'>    <img src='/wp-content/themes/acaira/images/SportsHi.png'     class='hi' /><img src='/wp-content/themes/acaira/images/Sports.png'     class='lo' /></a></div>
+    <div class='navlink'><a href='/cat/portraits'> <img src='/wp-content/themes/acaira/images/PortraitsHi.png'  class='hi' /><img src='/wp-content/themes/acaira/images/Portraits.png'  class='lo' /></a></div>
+    <div class='navlink'><a href='/cat/multimedia'><img src='/wp-content/themes/acaira/images/MultimediaHi.png' class='hi' /><img src='/wp-content/themes/acaira/images/Multimedia.png' class='lo' /></a></div>
+    <div class='navlink'><a href='/cat/events'>    <img src='/wp-content/themes/acaira/images/EventsHi.png'     class='hi' /><img src='/wp-content/themes/acaira/images/Events.png'     class='lo' /></a></div>
+    <div class='navlink'><a href='/cat/recent'>    <img src='/wp-content/themes/acaira/images/RecentHi.png'     class='hi' /><img src='/wp-content/themes/acaira/images/Recent.png'     class='lo' /></a></div>
+    <div class='navlink'><a href='/about'>         <img src='/wp-content/themes/acaira/images/AboutHi.png'      class='hi' /><img src='/wp-content/themes/acaira/images/About.png'      class='lo' /></a></div>
   </div>
   <div id='main'>
