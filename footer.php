@@ -5,6 +5,8 @@
  * @since Acaira 1.0
  */
 ?>
+      </div><!-- #content -->
+    </div><!-- #container -->
 	</div><!-- #main -->
 
 	<div id="footer" role="contentinfo">
