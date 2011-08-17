@@ -1,18 +1,19 @@
 <?php
 /**
- * The main template file.
- *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * E.g., it puts together the home page when no home.php file exists.
- * Learn more: http://codex.wordpress.org/Template_Hierarchy
- *
  * @package WordPress
  * @subpackage Acaira
- * @since Acaira 1.0
  */
 
 get_header();
-  get_template_part( 'content' );
+  if (have_posts()): while (have_posts()) : the_post();
+    get_template_part( 'content', get_post_format() );
+  endwhile; else: ?>
+    <div id="post-0" class="post error404 not-found">
+  		<h1 class="entry-title"><?php _e( 'Not Found', 'acaira' ); ?></h1>
+  		<div class="entry-content">
+  			<p><?php _e( 'Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post.', 'acaira' ); ?></p>
+  			<?php get_search_form(); ?>
+  		</div><!-- .entry-content -->
+  	</div><!-- #post-0 -->
+  <?php endif;
 get_footer(); ?>
