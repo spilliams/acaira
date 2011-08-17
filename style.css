@@ -89,6 +89,34 @@ body {
   padding-right: 10px;
   display:inline-block;
 }
+.gallery-thumb {
+  display: inline-block;
+  margin: 4px;
+  height:200px;
+  width:200px;
+  vertical-align: top;
+  position: relative;
+}
+.gallery-thumb:hover .gallery-title {
+  display:block !important;
+}
+.gallery-content {
+  font-size:200px;
+  color:#939598;
+  display: block;
+  text-align: center;
+}
+.gallery-title {
+  position: absolute;
+  bottom: 20px;
+  height: 60px;
+  left: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+  line-height: 30px;
+  text-align: center;
+  color: white;
+}
 #footer {
   position:absolute;
   bottom: 3px;
