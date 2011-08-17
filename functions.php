@@ -1,6 +1,6 @@
 <?php
 /**
- * AcairaTen functions and definitions
+ * Acaira functions and definitions
  *
  * Sets up the theme and provides some helper functions. Some helper functions
  * are used in the theme as custom template tags. Others are attached to action and
@@ -78,7 +78,7 @@ function acaira_setup() {
 	add_editor_style();
 
 	// Post Format support. You can also use the legacy "gallery" or "asides" (note the plural) categories.
-	add_theme_support( 'post-formats', array( 'aside', 'gallery' ) );
+	add_theme_support( 'post-formats', array( 'gallery' ) );
 
 	// This theme uses post thumbnails
 	add_theme_support( 'post-thumbnails' );
