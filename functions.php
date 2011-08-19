@@ -95,31 +95,12 @@ function acaira_setup() {
 	if ( is_readable( $locale_file ) )
 		require_once( $locale_file );
 
-	// This theme uses wp_nav_menu() in one location.
-	register_nav_menus( array(
-		'primary' => __( 'Primary Navigation', 'acaira' ),
-	) );
-
-	// This theme allows users to set a custom background
-	add_custom_background();
-
-	// Your changeable header business starts here
-	if ( ! defined( 'HEADER_TEXTCOLOR' ) )
-		define( 'HEADER_TEXTCOLOR', '' );
-
-	// No CSS, just IMG call. The %s is a placeholder for the theme template directory URI.
-	if ( ! defined( 'HEADER_IMAGE' ) )
-		define( 'HEADER_IMAGE', '%s/images/headers/path.jpg' );
-
-	// The height and width of your custom header. You can hook into the theme's own filters to change these values.
-	// Add a filter to acaira_header_image_width and acaira_header_image_height to change these values.
-	define( 'HEADER_IMAGE_WIDTH', apply_filters( 'acaira_header_image_width', 940 ) );
-	define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'acaira_header_image_height', 198 ) );
-
 	// We'll be using post thumbnails for custom header images on posts and pages.
 	// We want them to be 940 pixels wide by 198 pixels tall.
 	// Larger images will be auto-cropped to fit, smaller ones will be ignored. See header.php.
-	set_post_thumbnail_size( HEADER_IMAGE_WIDTH, HEADER_IMAGE_HEIGHT, true );
+	set_post_thumbnail_size( 200, 200, true );
+	
+	add_image_size( "Homepage Slideshow", 1024, 576);
 
 	// Don't support text inside the header image.
 	if ( ! defined( 'NO_HEADER_TEXT' ) )
