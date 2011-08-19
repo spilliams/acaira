@@ -89,6 +89,11 @@ body {
   padding-right: 10px;
   display:inline-block;
 }
+.up {
+  position:absolute;
+  top:0;
+  left:0;
+}
 .gallery-thumb {
   display: inline-block;
   margin: 4px;
@@ -116,11 +121,4 @@ body {
   line-height: 30px;
   text-align: center;
   color: white;
-}
-#footer {
-  position:absolute;
-  bottom: 3px;
-  font-size:10pt;
-  clear: both;
-  margin-left: 235px;
 }
