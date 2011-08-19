@@ -9,13 +9,7 @@
     </div><!-- #container -->
 	</div><!-- #main -->
 
-	<div id="footer" role="contentinfo">
-		<div id="colophon">
-      &copy; 2011 adam caira. powered by <a href='wordpress.org'>wordpress</a>. acaira theme by <a href='spencerenglish.com'>spilliams</a>.
-		</div>
-	</div>
 
-</div><!-- #wrapper -->
 
 <?php
 	/* Always have wp_footer() just before the closing </body>
