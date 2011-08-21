@@ -6,6 +6,6 @@
       echo $t[0];
       ?>
     </span>
-    <span class='gallery-title' style='display:none'><?php the_title(); ?><br><?php the_date(); ?></span>
+    <span class='gallery-title' style='display:none'><?php the_title(); ?></span>
   </div></a>
 <!-- end content -->

@@ -71,13 +71,9 @@
           return "style='display:none'";
         }
       }; ?>
-      <div class='navlink'><a href='/cat/editorial'><img src='/wp-content/themes/acaira/images/EditorialHi.png' <?php echo navHighlight('Editorial',false); ?> class='hi' /><img src='/wp-content/themes/acaira/images/Editorial.png' <?php echo navHighlight('Editorial',true); ?> class='lo' /></a></div>
-      <div class='navlink'><a href='/cat/sports'><img src='/wp-content/themes/acaira/images/SportsHi.png' <?php echo navHighlight('Sports',false); ?> class='hi' /><img src='/wp-content/themes/acaira/images/Sports.png' <?php echo navHighlight('Sports',true); ?> class='lo' /></a></div>
-      <div class='navlink'><a href='/cat/portraits'><img src='/wp-content/themes/acaira/images/PortraitsHi.png' <?php echo navHighlight('Portraits',false); ?> class='hi' /><img src='/wp-content/themes/acaira/images/Portraits.png' <?php echo navHighlight('Portraits',true); ?> class='lo' /></a></div>
-      <div class='navlink'><a href='/cat/multimedia'><img src='/wp-content/themes/acaira/images/MultimediaHi.png' <?php echo navHighlight('Multimedia',false); ?> class='hi' /><img src='/wp-content/themes/acaira/images/Multimedia.png' <?php echo navHighlight('Multimedia',true); ?> class='lo' /></a></div>
-      <div class='navlink'><a href='/cat/events'><img src='/wp-content/themes/acaira/images/EventsHi.png' <?php echo navHighlight('Events',false); ?> class='hi' /><img src='/wp-content/themes/acaira/images/Events.png' <?php echo navHighlight('Events',true); ?> class='lo' /></a></div>
-      <div class='navlink'><a href='/cat/recent'><img src='/wp-content/themes/acaira/images/RecentHi.png' <?php echo navHighlight('Recent',false); ?> class='hi' /><img src='/wp-content/themes/acaira/images/Recent.png' <?php echo navHighlight('Recent',true); ?> class='lo' /></a></div>
-      <div class='navlink'><a href='/about'><img src='/wp-content/themes/acaira/images/AboutHi.png' <?php if (get_the_title()=="About"){echo "style='display:block'";};?> class='hi' /><img src='/wp-content/themes/acaira/images/About.png' <?php if (get_the_title()=="About"){echo "style='display:none'";};?>class='lo' /></a></div>
+      <div class='navlink'><a href='/cat/portfolio'>Portfolio</a></div>
+      <div class='navlink'><a href='http://adamcaira.wordpress.com' target='_blank'>Blog</a></div>
+      <div class='navlink'><a href='/about'>About</a></div>
     </div>
   <div id="container">
   	<div id="content" role="main">

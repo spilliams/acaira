@@ -45,7 +45,7 @@
  * is designed for, generally via the style.css stylesheet.
  */
 if ( ! isset( $content_width ) )
-	$content_width = 640;
+	$content_width = 900;
 
 /** Tell WordPress to run acaira_setup() when the 'after_setup_theme' hook is run. */
 add_action( 'after_setup_theme', 'acaira_setup' );
@@ -95,12 +95,8 @@ function acaira_setup() {
 	if ( is_readable( $locale_file ) )
 		require_once( $locale_file );
 
-	// We'll be using post thumbnails for custom header images on posts and pages.
-	// We want them to be 940 pixels wide by 198 pixels tall.
 	// Larger images will be auto-cropped to fit, smaller ones will be ignored. See header.php.
 	set_post_thumbnail_size( 200, 200, true );
-	
-	add_image_size( "Homepage Slideshow", 1024, 576);
 
 	// Don't support text inside the header image.
 	if ( ! defined( 'NO_HEADER_TEXT' ) )
