@@ -78,7 +78,7 @@ function acaira_setup() {
 	add_editor_style();
 
 	// Post Format support. You can also use the legacy "gallery" or "asides" (note the plural) categories.
-	add_theme_support( 'post-formats', array( 'gallery' ) );
+	add_theme_support( 'post-formats', array( 'gallery', 'video' ) );
 
 	// This theme uses post thumbnails
 	add_theme_support( 'post-thumbnails' );
