@@ -71,6 +71,7 @@
           return "style='display:none'";
         }
       }; ?>
+      <div class='navlink'><a href='/'>Home</a></div>
       <div class='navlink'><a href='/cat/portfolio'>Portfolio</a></div>
       <div class='navlink'><a href='http://adamcaira.wordpress.com' target='_blank'>Blog</a></div>
       <div class='navlink'><a href='/about'>About</a></div>

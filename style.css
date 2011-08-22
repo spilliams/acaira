@@ -66,24 +66,21 @@ body {
   background: transparent url('/wp-content/themes/acaira/images/stripe.png') repeat-y left top;
 }
 #header {
-  margin:40px 0;
+  margin-top: 9px;
   padding-left: 116px;
 }
 #nav {
   display: inline-block;
-  padding: 3px;
-  width: 226px;
+  padding: 27px 4px 0 4px;
+  width: 224px;
   color: white;
-  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font: normal normal 300 16px/27px 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 .navlink {
-  font-size: 16px;
-  line-height: 40px;
   text-align: right;
 }
-.navlink a {
-  color: white;
-}
+.navlink a {color: white;}
+.navlink a:hover {color:#FBB040;}
 #main {
   position:relative;
 }
