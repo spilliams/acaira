@@ -27,7 +27,6 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	vertical-align: baseline;
 }
 body {
-  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 	line-height: 1;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -48,7 +47,7 @@ del {
 	text-decoration: line-through;
 }
 a {
-  color: inherit;
+  color: #939598;
   text-decoration: none;
 }
 a:hover {
@@ -75,11 +74,15 @@ body {
   padding: 3px;
   width: 226px;
   color: white;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
 .navlink {
   font-size: 16px;
   line-height: 40px;
   text-align: right;
+}
+.navlink a {
+  color: white;
 }
 #main {
   position:relative;
@@ -90,6 +93,7 @@ body {
   left: 242px;
   padding-right: 10px;
   display:inline-block;
+  max-width: 900px;
 }
 .up {
   position:absolute;
