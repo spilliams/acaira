@@ -74,7 +74,9 @@ body {
   padding-left: 116px;
 }
 #nav {
-  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
   padding: 27px 4px 0 4px;
   width: 224px;
   color: white;
@@ -90,8 +92,7 @@ body {
   position:relative;
 }
 #container {
-  position:absolute;
-  top:0;
+  margin-left: 235px;
   left: 242px;
   padding-right: 10px;
   display:inline-block;
@@ -130,6 +131,39 @@ h1.entry-title {
   line-height: 54px;
   font-weight: 300;
 }
-.entry-meta {
-  
+/* sticky footer by Ryan Fait http://ryanfait.com/sticky-footer */
+html, body {
+  height: 100%;
+}
+#wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%; /* IE */
+  margin: 0 auto -30px;
+}
+#push {
+  height: 30px;
+}
+#footer {
+  margin-left: 235px;
+  font-size: 14px;
+  line-height: 16px;
+  height: 16px;
+}
+/* the new clearfix method I read about over at Perishable Press
+ * use it by putting "<div class='clearfix'></div>" after a floated element
+ */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0
+}
+* html .clearfix { /* IE6 */
+  zoom: 1
+}
+*:first-child+html .clearfix { /* IE7 */
+  zoom: 1
 }
