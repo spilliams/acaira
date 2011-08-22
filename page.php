@@ -4,9 +4,9 @@
  */
 get_header();
   if (have_posts()): while (have_posts()) : the_post();
-    if (is_front_page()):
-      get_template_part( 'content-home' );
-    else:
+    if (is_front_page()): ?>
+      <img src='<?php bloginfo('stylesheet_directory'); ?>/images/home.jpg'>
+    <?php else:
       get_template_part( 'content-page' );
     endif;
   endwhile; else:

@@ -97,11 +97,6 @@ body {
   display:inline-block;
   max-width: 900px;
 }
-.up {
-  position:absolute;
-  top:0;
-  left:0;
-}
 .gallery-thumb {
   display: inline-block;
   margin: 4px;
