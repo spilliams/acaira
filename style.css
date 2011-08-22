@@ -70,7 +70,7 @@ body {
   line-height: 18px;
 }
 #header {
-  margin-top: 9px;
+  padding-top: 9px;
   padding-left: 116px;
 }
 #nav {
@@ -139,10 +139,10 @@ html, body {
   min-height: 100%;
   height: auto !important;
   height: 100%; /* IE */
-  margin: 0 auto -30px;
+  margin: 0 auto -17px;
 }
 #push {
-  height: 30px;
+  height: 17px;
 }
 #footer {
   margin-left: 235px;
